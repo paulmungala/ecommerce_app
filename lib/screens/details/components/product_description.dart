@@ -1,5 +1,5 @@
 import 'package:eccommerce_learning/constants.dart';
-import 'package:eccommerce_learning/models/Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 import 'package:eccommerce_learning/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -34,7 +34,7 @@ class ProductDescription extends StatelessWidget {
             width: getProportionateScreenWidth(64),
             decoration: BoxDecoration(
               color:
-                  product.isFavourite ? const Color(0xFFFFE6E6) : Color(0xFFF5F6F9),
+                  product.isFavourite ? const Color(0xFFFFE6E6) : const Color(0xFFF5F6F9),
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(20),
                 bottomLeft: Radius.circular(20),

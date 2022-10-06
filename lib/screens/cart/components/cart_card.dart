@@ -1,5 +1,5 @@
 import 'package:eccommerce_learning/constants.dart';
-import 'package:eccommerce_learning/models/Cart.dart';
+import 'package:eccommerce_learning/models/cart_model.dart';
 import 'package:eccommerce_learning/size_config.dart';
 import 'package:flutter/material.dart';
 

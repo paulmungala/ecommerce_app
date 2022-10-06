@@ -46,6 +46,7 @@ class ForgotPassForm extends StatefulWidget {
   const ForgotPassForm({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _ForgotPassFormState createState() => _ForgotPassFormState();
 }
 

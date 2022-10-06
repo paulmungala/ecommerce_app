@@ -1,4 +1,4 @@
-import 'package:eccommerce_learning/models/Cart.dart';
+import 'package:eccommerce_learning/models/cart_model.dart';
 import 'package:eccommerce_learning/screens/cart/components/body.dart';
 import 'package:eccommerce_learning/screens/cart/components/check_out_card.dart';
 import 'package:flutter/material.dart';

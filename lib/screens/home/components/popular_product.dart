@@ -1,5 +1,5 @@
 import 'package:eccommerce_learning/components/product_card.dart';
-import 'package:eccommerce_learning/models/Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 import 'package:eccommerce_learning/screens/home/components/section_title.dart';
 import 'package:eccommerce_learning/size_config.dart';
 import 'package:flutter/material.dart';

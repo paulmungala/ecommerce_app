@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:eccommerce_learning/components/default_button.dart';
 import 'package:eccommerce_learning/constants.dart';
 import 'package:eccommerce_learning/size_config.dart';

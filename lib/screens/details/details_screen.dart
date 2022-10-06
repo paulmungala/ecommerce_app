@@ -1,4 +1,4 @@
-import 'package:eccommerce_learning/models/Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 import 'package:eccommerce_learning/screens/details/components/body.dart';
 import 'package:eccommerce_learning/screens/details/components/custom_app_bar.dart';
 import 'package:flutter/material.dart';

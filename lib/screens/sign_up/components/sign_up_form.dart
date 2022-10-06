@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:eccommerce_learning/components/custom_surfix_icon.dart';
 import 'package:eccommerce_learning/components/default_button.dart';
 import 'package:eccommerce_learning/components/form_error.dart';
@@ -17,7 +19,7 @@ class _SignUpFormState extends State<SignUpForm> {
   final _formKey = GlobalKey<FormState>();
   String? email;
   String? password;
-  String? conform_password;
+  String? conformpassword;
   bool remember = false;
   final List<String?> errors = [];
 
@@ -68,14 +70,14 @@ class _SignUpFormState extends State<SignUpForm> {
   TextFormField buildConformPassFormField() {
     return TextFormField(
       obscureText: true,
-      onSaved: (newValue) => conform_password = newValue,
+      onSaved: (newValue) => conformpassword = newValue,
       onChanged: (value) {
         if (value.isNotEmpty) {
           removeError(error: kPassNullError);
-        } else if (value.isNotEmpty && password == conform_password) {
+        } else if (value.isNotEmpty && password == conformpassword) {
           removeError(error: kMatchPassError);
         }
-        conform_password = value;
+        conformpassword = value;
       },
       validator: (value) {
         if (value!.isEmpty) {

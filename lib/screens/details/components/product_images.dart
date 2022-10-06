@@ -1,5 +1,5 @@
 import 'package:eccommerce_learning/constants.dart';
-import 'package:eccommerce_learning/models/Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 import 'package:eccommerce_learning/size_config.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +12,7 @@ class ProductImages extends StatefulWidget {
   final Product product;
 
   @override
+  // ignore: library_private_types_in_public_api
   _ProductImagesState createState() => _ProductImagesState();
 }
 

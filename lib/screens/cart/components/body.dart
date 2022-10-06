@@ -1,4 +1,6 @@
-import 'package:eccommerce_learning/models/Cart.dart';
+// ignore_for_file: library_private_types_in_public_api
+
+import 'package:eccommerce_learning/models/cart_model.dart';
 import 'package:eccommerce_learning/screens/cart/components/cart_card.dart';
 import 'package:eccommerce_learning/size_config.dart';
 import 'package:flutter/material.dart';

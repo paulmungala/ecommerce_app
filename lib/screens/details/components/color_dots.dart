@@ -1,6 +1,6 @@
 import 'package:eccommerce_learning/components/rounded_icon_btn.dart';
 import 'package:eccommerce_learning/constants.dart';
-import 'package:eccommerce_learning/models/Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 import 'package:eccommerce_learning/size_config.dart';
 import 'package:flutter/material.dart';
 

@@ -1,5 +1,5 @@
 import 'package:eccommerce_learning/components/default_button.dart';
-import 'package:eccommerce_learning/models/Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 import 'package:eccommerce_learning/screens/details/components/color_dots.dart';
 import 'package:eccommerce_learning/screens/details/components/product_description.dart';
 import 'package:eccommerce_learning/screens/details/components/product_images.dart';

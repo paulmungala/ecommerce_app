@@ -1,5 +1,4 @@
-
-import 'Product.dart';
+import 'package:eccommerce_learning/models/product_model.dart';
 
 class Cart {
   final Product product;
